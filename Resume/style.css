@@ -9,7 +9,7 @@
 }
 .navbar-text {
     position: relative;
-    left: 50px;
+    text-align: center;
     margin: 10px;
 }
 .main-body {
@@ -27,7 +27,6 @@
 p.center {
     text-align: center;
 }
-
 img.rounded {
     border-radius: 25%;
     border: 5px solid #3A3C41
