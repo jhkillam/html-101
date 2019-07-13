@@ -1,31 +1,29 @@
-.card {
-    width: 400px;
-    height: 195px;
+.navbar {
+    overflow: hidden;
+    background-color: #5A8D97;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    max-height: 120px;
+    border-bottom: 5px solid #3A3C41;
+}
+.navbar-text {
     position: relative;
-    display: inline-block;
+    left: 1em;
+    margin: 10px;
 }
-.card .img-top {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: 99;
-}
-.card:hover .img-top {
-    display: inline;
-}
-.headline-background{
-    background-color:orchid;
-    padding: 30px;
-    position: fixed;
-    width: 960px;
-}
-.fixed-headline {
-    position:fixed;
-    margin:auto;
-}
-body {
+.main-body {
+    padding-top: 120px;
     max-width: 960px;
     margin: auto;
-    /* border: 10px solid aquamarine;  */
+    border: 5px solid #3A3C41; 
+}
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* width: 50%; */
+}
+p.center {
+    text-align: center;
 }
